@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'"> -->
+    <link href="./styles.css" rel="stylesheet">
+    <title>Hello World!</title>
+  </head>
+  <body>
+
+    <header>
+      <h2>Base64 GEn</h2>
+    </header>
+
+    <main>
+      <input type="text" NAME="txt" id="txt">
+      <button type="button" onclick="generate()">Generate</button>
+      <button type="button" onclick="decode()">Decode</button>
+      <div class="result" id="result"></div>
+    </main>
+
+
+    <footer>
+      &copy; Copyright dXIgbW9t
+    </footer>
+    <script src="scripts/app.js"></script>
+  </body>
+</html>
